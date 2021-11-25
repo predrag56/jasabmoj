@@ -37,7 +37,7 @@ export default class MainScene extends Phaser.Scene {
    }
 
   create() {
-
+/*
     this.add.text(500,300,"PRETISNI anywhere to hop", {fontSize:"50px"}).setOrigin(.5,.5)
 
     this.playerLabel =  this.add.text(-50,-50," !!!!!OVO SI TI !!!!!!").setOrigin(.5,1)
@@ -90,7 +90,8 @@ export default class MainScene extends Phaser.Scene {
       this.input.on("pointerdown", ()=>{
         if(this.player.y>700)
         this.player.applyForce(new Phaser.Math.Vector2(.025-.05*Math.random(), -.05-.125*Math.random()))
-      })     
+      }) 
+      */    
   }
 
   update(){
